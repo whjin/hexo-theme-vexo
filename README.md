@@ -2,7 +2,7 @@
 
 [hexo-theme-vexo](https://github.com/whjin/hexo-theme-vexo) 是一款类 [Vue.js](https://cn.vuejs.org) 官网主题，特色是简洁明快。
 
-# Introduce #
+# 简介 #
 
 ![](http://file.muyutech.com/vexo.png)
 
@@ -40,14 +40,12 @@
     category: ["cate1"]
     tags: ["tag1","tag2"]
     ---
-    这里可以用 **more** 进行分割，作为摘要显示。
+    这里可以用 more 进行分割，作为摘要显示。
     <!--more-->
 
 # 更新日志 #
 
-**2017/12/14 0:01:16 **
-
-- 基础样式
+2017/12/14 0:01:16 
 
 # 主题特点 #
 
