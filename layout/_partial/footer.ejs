@@ -1,8 +1,9 @@
 <footer class="app-footer">
-    <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
     <div>&copy; 2015 -
         <script type="text/javascript">document.write(new Date().getFullYear());</script>
-        <a href="https://whjin.github.io/resume" target="_blank"> 华锦 </a>|<span id="busuanzi_container_site_pv"> 访问量 <a
+        <a href="https://github.com/whjin" target="_blank" title="Github"> whjin </a>|<span
+                id="busuanzi_container_site_pv"> 访问 <a
                     href="http://service.ibruce.info/" target="_blank"><span id="busuanzi_value_site_pv"></span></a> 次 </span><span
                 id="busuanzi_container_site_uv"><a href="http://service.ibruce.info/" target="_blank"><span
                         id="busuanzi_value_site_uv"></span></a> 人</span></div>
@@ -30,7 +31,7 @@
 
 <script>
     var hasLine = '<%- config.highlight["line_number"] %>';
-    async("//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js", function () {
+    async("//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js", function () {
         $('figure pre').each(function (i, block) {
             var figure = $(this).parents('figure');
             if (hasLine == 'false') {

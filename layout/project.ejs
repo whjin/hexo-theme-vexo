@@ -19,7 +19,7 @@
             success: function (data) {
                 var repos = data.sort(function (a, b) {
                     return (b.stargazers_count - a.stargazers_count)
-                }).slice(0, 6)
+                }).slice(0, 9)
                 var cardHtml = repos.map(function (item) {
                     var description = item.description || ""
                     if (description.replace(/[\u0391-\uFFE5]/g, "aa").length > 72) {

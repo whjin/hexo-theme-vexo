@@ -1,4 +1,4 @@
 ---
-title: About
+title: 关于
 layout: about
 ---

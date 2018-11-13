@@ -72,7 +72,7 @@
                 header.removeClass('fixed-header')
             }
         }*/
-        if (scrollTop > 100) {
+        if (scrollTop > 50) {
             top.addClass('opacity')
         } else {
             top.removeClass('opacity')
