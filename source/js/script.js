@@ -46,7 +46,7 @@
         var name = $(this).data('name');
         var maoH = list.find('#' + name).offset().top;
 
-        $('html,body').animate({scrollTop: maoH - header.height()}, 500)
+        $('html,body').animate({scrollTop: maoH - header.height() + 50}, 500)
     });
 
     $('.reward-btn').on('click', function () {

@@ -5,7 +5,8 @@
 <main class="app-body">
     <div id="tag-cloud">
         <% site.tags.map(function(tag, index) { %>
-        <a class="tag<%= Math.round(Math.random() * 3) %>" data-name="tag-<%= tag.name.toLowerCase() %>"><%= tag.name.toUpperCase() %></a>
+        <a class="tag<%= Math.round(Math.random() * 3) %>"
+           data-name="tag-<%= tag.name.toLowerCase() %>"><%= tag.name.toUpperCase() %></a>
         <% }) %>
     </div>
     <% site.tags.map(function(tag, index){ %>
