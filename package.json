@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yanm1ng/hexo-theme-vexo.git"
+    "url": "git@github.com:whjin/hexo-theme-vexo.git"
   },
   "keywords": [
     "hexo",
@@ -18,9 +18,9 @@
   "author": "yanm1ng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yanm1ng/hexo-theme-vexo/issues"
+    "url": "https://github.com/whjin/hexo-theme-vexo/issues"
   },
-  "homepage": "https://github.com/yanm1ng/hexo-theme-vexo",
+  "homepage": "https://github.com/whjin/hexo-theme-vexo",
   "devDependencies": {
     "ejs-lint": "^0.2.0",
     "eslint": "^3.14.0",

@@ -1,4 +1,4 @@
-﻿# hexo-theme-vexo
+# hexo-theme-vexo
 
 [hexo-theme-vexo](https://github.com/whjin/hexo-theme-vexo) 是一款类 [Vue.js](https://cn.vuejs.org) 官网主题，特色是简洁明快。
 
@@ -45,7 +45,8 @@
 
 # 更新日志 #
 
-2017/12/14 0:01:16 
+- 2017/12/14 0:01:16 初次提交版本
+- 2020-05-17 14:07:17 标准化页面`title`，增加`emoji`解析，修改`About`页`Avatar`和`banner`图片引用 
 
 # 主题特点 #
 
@@ -75,4 +76,4 @@
 
 # LICENSE #
 
-[MIT](https://opensource.org/licenses/MIT)
+hexo-theme-vexo is [MIT](https://opensource.org/licenses/MIT)

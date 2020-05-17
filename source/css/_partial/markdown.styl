@@ -3,37 +3,33 @@
   overflow-x: hidden
   pre, code
     font-family: 'Roboto Mono', Monaco, courier, monospace
-    font-size: inherit
+    font-size: 13px
     @media m-mobile
-      font-size: inherit
+      font-size: 12px
     .line
       margin: 2px 0
   p
-    line-height: 1.6em
     margin-top: 10px
+    line-height: 1.6em
     code
       background-color: color-background
       color: color-orange
-      margin: 0 2px
-      border-radius: 3px
-      white-space: nowrap
-  h1, h2, h3, h4, h5, h6
-    code
-      color: color-orange
-      margin: 0 2px
+      padding: 3px 5px
+      margin: 0 2 pxz
+      border-radius: 2px
       white-space: nowrap
   h1
-    font-size: 1.6em
+    font-size: 1.8em
   h2
-    font-size: 1.4em
+    font-size: 1.5em
   h3
     margin: 1em 0
-    font-size: 1.2em
+    font-size: 1.3em
     padding-bottom: .3em
     border-bottom: 1px solid color-border
   h4
     margin: 1em 0
-    font-size: 1em
+    font-size: 1.2em
     &:before
       content: "#";
       color: color-primary
@@ -41,7 +37,7 @@
       font-size: 1.2em
       font-weight: 700
   h5
-    font-size: .8em
+    font-size: 1em
     margin: .8em 0
   blockquote
     margin: 1em 0
@@ -50,21 +46,13 @@
     background: color-background
     border-bottom-right-radius: 2px
     border-top-right-radius: 2px
-    p
-      margin: auto
   ul, ol
     overflow: auto
-    margin: 3px 0
+    margin: 15px 0
     li
-      padding: 3px 0
+      padding: 5px 0
       p
         margin: auto
-      code
-        background-color: color-background
-        color: color-orange
-        margin: 0 2px
-        border-radius: 2px
-        white-space: nowrap
   img
     max-width: 100%
     display: block
@@ -91,7 +79,6 @@
       font-weight: 500
   > table
     width: 100%
-    border-collapse: collapse
     thead
       background-color: color-primary
       border-top-width: 1px
@@ -100,24 +87,14 @@
       th
         padding: 5px 10px
         color: color-white
-        border: 1px solid #ccc
-        text-align: center
     tbody
       tr
         &:nth-child(even)
           background: #e6eed6
         &:nth-child(odd)
-          background: color white
+          background: color-white
         td
           padding: 5px 10px
-          border: 1px solid #ccc
-          code
-            color: color-orange
-            padding: 0 2px
-        td:first-child
-          text-align: center
-          code
-            white-space: nowrap
   hr
     border: none
     border-bottom: 1px dashed color-border
