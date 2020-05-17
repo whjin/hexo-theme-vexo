@@ -14,6 +14,10 @@
       headers: {
         Accept: "application/vnd.github.v3.raw",
       },
+      xhrFields: {
+        withCredentials: true,
+      },
+      crossDomain: true,
       type: "get",
       url: "https://api.github.com/users/<%= config.github_username %>/repos",
       success: function (data) {
